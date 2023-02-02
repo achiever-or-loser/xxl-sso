@@ -379,8 +379,8 @@ public class JedisUtil {
     }
 
     public static void main(String[] args) {
-        String xxlSsoRedisAddress = "redis://xxl-sso:password@127.0.0.1:6379/0";
-        xxlSsoRedisAddress = "redis://127.0.0.1:6379/0";
+        String xxlSsoRedisAddress = "redis://xxl-sso:password@192.168.160.22:6379/0";
+        xxlSsoRedisAddress = "redis://192.168.160.22:6379/0";
         init(xxlSsoRedisAddress);
 
         setObjectValue("key", "666", 2*60*60);

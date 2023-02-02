@@ -18,10 +18,10 @@ import java.util.Map;
 public class TokenClientTest {
 	private static Logger logger = LoggerFactory.getLogger(TokenClientTest.class);
 
-	public static String ssoServer = "http://xxlssoserver.com:8080/xxl-sso-server";
+	public static String ssoServer = "http://127.0.0.1:8080/xxl-sso-server";
 
-	public static String client01 = "http://xxlssoclient1.com:8082/xxl-sso-token-sample-springboot/";
-	public static String client02 = "http://xxlssoclient2.com:8082/xxl-sso-token-sample-springboot/";
+	public static String client01 = "http://127.0.0.1:8082/xxl-sso-token-sample-springboot/";
+	public static String client02 = "http://127.0.0.1:8082/xxl-sso-token-sample-springboot/";
 
 	@Test
 	public void test() throws Exception {
